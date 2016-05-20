@@ -15,6 +15,17 @@ function submitAnswers() {
 			alert("You missed question "+ i);
 			return false;
 		}
-	}	
+	}
+
+	//Here we set the correct answers logic using an array
+	var answers = ["b", "a", "d", "b", "d"];
+
+	//Here we check answers using another for loop
+	for(i = 1; i <= total; i++)	{
+		if(eval('q'+i) == answers[i - 1]) {
+			score++;
+		}
+	}
 	
+	alert('You scored '+score+' out of '+total);
 }

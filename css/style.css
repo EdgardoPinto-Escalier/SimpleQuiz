@@ -47,11 +47,11 @@ input[type="submit"] {
 
 #results h3 {
 	background: #f06226;
-	color: 10px;
+	color: #fff;
 	margin: 10px 0;
 }
 
 #results span {
 	color: #000;
-	font-weigth: bold;
+	font-weight: bold;
 }
