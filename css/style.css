@@ -38,17 +38,21 @@ footer {
 }
 
 input[type="submit"] {
-	background: #ccc;
-	border: 0;
-	color: #000;
+	background: #7a7a84;
+	border: 2px solid #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
 	padding: 10px 15px;
 	cursor: pointer;
 }
 
 #results h3 {
-	background: #f06226;
+	background: #7a7a84;
 	color: #fff;
+	border: 2px solid #fff;
 	margin: 10px 0;
+	padding: 10px;
 }
 
 #results span {
